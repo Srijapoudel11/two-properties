@@ -25,7 +25,7 @@ public class Robot {
 	public static int getSpeed() {
 		return speed;
 	}
-	public static int turnRight() {//Slower Right Motor
+	public static int turnRight() {//Slower the Right Motor
 		if (turn<0) {
 			return speed+turn;
 		}
@@ -34,7 +34,7 @@ public class Robot {
 		}
 		
 	}
-	public static int turnLeft() {//Slower Left motor
+	public static int turnLeft() {//Slower the Left motor
 		if (turn>0) {
 			return speed-turn;
 		}
